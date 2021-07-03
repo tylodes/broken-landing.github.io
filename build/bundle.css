@@ -1,0 +1,84 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+header.svelte-1p3i1ps.svelte-1p3i1ps{width:100%;display:flex;flex-flow:row nowrap;align-items:center;justify-content:space-between}nav.svelte-1p3i1ps.svelte-1p3i1ps{width:max-content;height:100%;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-end}nav.svelte-1p3i1ps a.svelte-1p3i1ps{margin-left:32px;font:500 18px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:white;text-decoration:none;padding:0;transition:text-shadow .2s cubic-bezier(.25,0,0,1), transform .2s cubic-bezier(.25,0,0,1)}nav.svelte-1p3i1ps a.svelte-1p3i1ps:hover{text-shadow:4px 4px 8px rgba(255,255,255,.35);transform:translateY(-2px)}nav.svelte-1p3i1ps a img.svelte-1p3i1ps{width:32px;transition:box-shadow .2s cubic-bezier(.25,0,0,1);border-radius:16px}nav.svelte-1p3i1ps a img.svelte-1p3i1ps:hover{box-shadow:4px 4px 16px rgba(255,255,255,.35)}
+.text-block.svelte-ogszwf{width:max-content;display:flex;flex-flow:column}small.svelte-ogszwf{font:400 24px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:rgba(169, 186, 255, 1);margin:0;padding:0;line-height:29.05px;letter-spacing:3px}h1.svelte-ogszwf{padding:0;margin:32px 0 0;font:600 56px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:white;text-transform:uppercase;text-shadow:0 4px 64px rgba(255,255,255,.8);letter-spacing:5px;line-height:61px}h2.svelte-ogszwf{padding:0;margin:0;font:900 56px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:transparent;-webkit-text-stroke-color:#fff;-webkit-text-stroke-width:2px;text-transform:uppercase;letter-spacing:-0.5px;line-height:61px}a.svelte-ogszwf{width:max-content;margin:32px 0 0;color:#fff;background:#0032FF;border-radius:4px;font:500 18px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;padding:16px 24px;cursor:pointer;text-decoration:none;box-shadow:4px 4px 64px rgba(255,255,255,.25);transition:transform .2s cubic-bezier(.25,0,0,1)}a.svelte-ogszwf:hover{transform:scale(1.05)}
+#anchor-about.svelte-1534eeh.svelte-1534eeh{width:100%;display:flex;flex-flow:row wrap;justify-content:space-between;margin-top:288px}.left.svelte-1534eeh.svelte-1534eeh{width:max-content;display:flex;flex-flow:column}.left.svelte-1534eeh .header.svelte-1534eeh{width:max-content;position:relative;z-index:3;margin-bottom:131px}.left.svelte-1534eeh .header h1.svelte-1534eeh{font:700 48px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:white;padding:0;margin:0}.left.svelte-1534eeh .header .underline.svelte-1534eeh{position:absolute;z-index:2;bottom:0;width:100%;height:18px;background:#fff;opacity:.1}p.svelte-1534eeh.svelte-1534eeh{width:100%;max-width:800px;font:400 24px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:white;padding:0;margin:0 0 16px;line-height:29.26px}img.logo.svelte-1534eeh.svelte-1534eeh{width:max-content;height:32px;margin-bottom:131px}a.svelte-1534eeh.svelte-1534eeh{width:max-content;margin:32px 0 0;color:#0032FF;background:#fff;border-radius:4px;font:500 18px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;padding:16px 24px;cursor:pointer;text-decoration:none;box-shadow:4px 4px 64px rgba(255,255,255,.25);transition:transform .2s cubic-bezier(.25,0,0,1)}a.svelte-1534eeh.svelte-1534eeh:hover{transform:scale(1.05)}img.phone.svelte-1534eeh.svelte-1534eeh{width:100%;max-width:618px;animation:svelte-1534eeh-phone-move 4s infinite ease-in-out}@keyframes svelte-1534eeh-phone-move{from{transform:translateY(0)}50%{transform:translateY(-32px)}to{transform:translateY(0)}}
+#anchor-download.svelte-5ulk8l{width:100%;max-width:1800px;position:relative;z-index:1;display:flex;flex-flow:column;align-items:center;margin-top:200px}h1.svelte-5ulk8l{font:700 48px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:white;padding:0;margin:0 0 128px;text-align:center}.downloads-line.svelte-5ulk8l{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center}a.svelte-5ulk8l{transition:transform .2s cubic-bezier(.25,0,0,1)}a.svelte-5ulk8l:hover{transform:scale(1.1)}p.svelte-5ulk8l{font:500 24px 'Montserrat', sans-serif;color:white;padding:0;margin:0}
+footer.svelte-198lg6d{width:100%;height:112px;margin:200px 64px 0;background:white;border-radius:64px;display:flex;flex-flow:column;align-items:center;justify-content:center}img.svelte-198lg6d{height:32px;margin-bottom:16px}p.svelte-198lg6d{font:600 20px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;padding:0;margin:0}
+#anchor-cando.svelte-gxxvgx{width:100%;position:relative;z-index:2;display:flex;flex-flow:column;align-items:center}.content.svelte-gxxvgx{position:absolute;z-index:2;width:100%;max-width:1800px;display:flex;flex-flow:column;align-items:center;padding-top:350px}a.svelte-gxxvgx{width:max-content;color:#fff;background:#0032FF;border-radius:4px;font:500 18px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;padding:16px 24px;cursor:pointer;text-decoration:none;box-shadow:4px 4px 64px rgba(255,255,255,.25);transition:transform .2s cubic-bezier(.25,0,0,1);margin:128px 0 0}a.svelte-gxxvgx:hover{transform:scale(1.05)}h1.svelte-gxxvgx{font:700 48px 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;color:#000;margin-bottom:128px}.circle.svelte-gxxvgx{width:100vw;display:flex;flex-flow:column;align-items:center;padding:200px;background:white;border-radius:50%}
+body::-webkit-scrollbar {
+    width: .5em;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f2f2f2;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 4px;
+}
+main.svelte-1yi35oo{width:100%;display:flex;flex-flow:column;align-items:center}body{width:100vw;overflow-x:hidden;padding:0;margin:0;scroll-behavior:smooth}*{box-sizing:border-box}.background.svelte-1yi35oo{position:absolute;z-index:0;width:100vw;object-fit:cover}.main-panel.svelte-1yi35oo{position:relative;z-index:1;width:100%;max-width:1800px;margin-top:32px;padding:32px 128px 128px 128px;display:flex;flex-flow:column;align-items:stretch}.main-panel-full.svelte-1yi35oo{width:100%;position:relative;z-index:2;display:flex;flex-flow:column;align-items:stretch}.top.svelte-1yi35oo{width:100%;display:flex;flex-flow:row wrap;justify-content:space-between;margin-top:184px}img.car.svelte-1yi35oo{width:100%;max-width:904px}
